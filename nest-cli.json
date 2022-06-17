@@ -1,0 +1,19 @@
+{
+  "language": "ts",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "libreoffice": {
+      "type": "library",
+      "root": "libs/libreoffice",
+      "entryFile": "index",
+      "sourceRoot": "libs/libreoffice/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/libreoffice/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
