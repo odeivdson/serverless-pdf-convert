@@ -37,7 +37,8 @@ POST Body {
 
 ### Todo
 - Criar testes unitários
-
+- Criar Layer própria (não depender da layer libreoffice)
+- Processar variáveis no documento (substituição de variáveis)
 
 ---
 ### Importante
